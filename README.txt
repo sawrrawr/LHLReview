@@ -1,1 +1,0 @@
-This repository is for further review and practice of all concepts covered in the Web Development Bootcamp at Lighthouse Labs!
