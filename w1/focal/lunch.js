@@ -1,4 +1,4 @@
-const whatToDoForLunch = function(hungry, time) {
+const whatToDoForLunch = function (hungry, time) {
   if (hungry === true) {
     if (time < 20) {
       console.log("grab a quick snack!");
