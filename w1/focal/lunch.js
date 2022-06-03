@@ -1,19 +1,16 @@
-const whatToDoForLunch = function (hungry, time) {
+const whatToDoForLunch = function(hungry, time) {
   if (hungry === true) {
     if (time < 20) {
-      console.log("grab a quick snack!")
+      console.log("grab a quick snack!");
+    } else if (time >= 20 && time < 30) {
+      console.log("take a break, you've earned it!");
+    } else {
+      console.log("if you've got this much time... keep coding!");
     }
-    else if (time >= 20 && time < 30) {
-      console.log("take a break, you've earned it!")
-    }
-    else {
-      console.log("if you've got this much time... keep coding!")
-    }
+  } else {
+    console.log("if you aren't hungry, it's not lunch time!");
   }
-  else {
-    console.log("if you aren't hungry, it's not lunch time!")
-  }
-}
+};
 
 
 /*
